@@ -11,7 +11,7 @@ html, body {
     background-color: black;
 }
 body {
-    background-image: url('imagens/fundo.jpg');
+    background: url('imagens/fundo.jpg') no-repeat top  center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -33,12 +33,15 @@ section#telefone {
 }
 
 iframe {
-    background-color: black;
     width: 269px;
     height: 474px;
-    position: absolute;
+    position: relative;
     top: 80px;
     left: 21px;
+}
+
+section#social {
+    text-align: right;
 }
 
 section#social > a > img {
@@ -46,6 +49,7 @@ section#social > a > img {
     border-radius: 50%;
     width: 90px;
     box-shadow: 3px 1px 5px black;
+    box-sizing: border-box;
 }
 
 section#social > a > img:hover {
