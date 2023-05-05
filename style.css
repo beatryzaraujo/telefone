@@ -8,12 +8,12 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color:red;
 }
 body {
     background: url('imagens/fundo.jpg') no-repeat top  center;
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -25,19 +25,20 @@ main {
 section#telefone {
     position: absolute;
     background: url('imagens/iphone.png') no-repeat;
-    width: 311px;
-    height: 700px;
+    background-size: cover;
+    height: 500px;
+    width: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 iframe {
-    width: 269px;
-    height: 474px;
     position: relative;
-    top: 80px;
-    left: 21px;
+    top: 64px;
+    left: 18px;
+    width: 214.5px;
+    height: 378.6px;
 }
 
 section#social {
@@ -47,7 +48,7 @@ section#social {
 section#social > a > img {
     margin: 10px;
     border-radius: 50%;
-    width: 90px;
+    width: 50px;
     box-shadow: 3px 1px 5px black;
     box-sizing: border-box;
 }
